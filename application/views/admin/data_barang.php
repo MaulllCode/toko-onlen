@@ -32,7 +32,7 @@
 					<div class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></div>
 				</td>
 				<td>
-					<div class="btn btn-danger btn-sm"><i class="fa	 fa-trash"></i></div>
+					<div class="btn btn-danger btn-sm"><i class="fa	fa-trash"></i></div>
 				</td>
 			</tr>
 
@@ -52,7 +52,7 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<form action="<?php echo base_url() . 'admin/data_barang/tambah_aksi' ?>" method="post" enctype="multipart/form-data">
+				<form action="<?php echo base_url() . 'admin/data_barang/tambah_aksi'; ?>" method="post" enctype="multipart/form-data">
 
 					<div class="form-group">
 						<label for="">Nama Barang</label>
